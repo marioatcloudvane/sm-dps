@@ -21,7 +21,8 @@ You can finally define your data products with the confidence of a plumber holdi
 apiVersion: sm-dps/v1.0.0
 kind: DataProduct
 id: "sm-dps:dataproduct:world-1-1:mushroom-orders"
-status: active```
+status: active
+```
 
 If that looks suspiciously like YAML you’ve seen before — yes, it is.
 Except this one has coin budgets, warp zones, and thwomp-rate-limits baked in.
