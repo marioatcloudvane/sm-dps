@@ -27,9 +27,7 @@ status: active
 If that looks suspiciously like YAML you’ve seen before — yes, it is.
 Except this one has coin budgets, warp zones, and thwomp-rate-limits baked in.
 
-## The Spec
-
-## ⚙️ Key Features
+## Key Features
 
 | Feature | Description |
 |------------|----------------|
@@ -45,3 +43,26 @@ Except this one has coin budgets, warp zones, and thwomp-rate-limits baked in.
 |  **ThwompRateLimit** | Prevents uncontrolled redeploys by dropping heavy governance blocks on bad ideas. |
 |  **Yoshi Integrations** | Out-of-the-box support for dashboards, catalogs, and dinosaur-friendly ETL. |
 |  **Great Expectations Compatible** | Because even Mario checks his expectations before a boss fight. |
+
+## Technical Details (because we need to sound serious)
+
+* Format: YAML 1.2 (we think)
+* Versioning: Semantic Versioning + World Number (e.g. v1.1.0-World-3)
+* Schema: Validated by Great Expectations & Mario’s gut feeling
+* Runtime Target: Databricks, Snowflake, or any silo with a stable bridge
+* Testing: pytest --powerup=FireFlower
+* CI/CD: green-shell-lint → red-shell-test → deploy via Warp Zone
+
+## Contributing
+
+ * Fork the repo.
+ * Add your changes.
+ * Pray to Yoshi for CI to pass.
+ * Open a PR with a meme as justification.
+
+We follow zero guidelines and occasionally merge at random to simulate real-world enterprise data governance.
+
+## The Details
+
+ - The full spec yaml:
+ - The JSON schema for validation: 
